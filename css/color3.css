@@ -1,0 +1,354 @@
+/* ==========================================================================================
+
+========================================================================================== */
+
+
+/*-------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. Color black 
+    2. Color green
+    3. Bg black
+    4. Bg green
+    5. Border green
+    6. Border black
+
+-------------------------------------------------------*/
+
+
+/* ....................................
+1. Color black 
+.......................................*/
+
+.black,
+.btn-default span,
+.btn-default .btn:hover,
+.head-icons li .shop-count,
+.each-events,
+.each-events:hover .evnt-btn .btn,
+.btn-default:hover,
+.main-menu-1 .submenu li a,
+.dashed-play-btn i,
+.each-team .team-plus,
+.each-team .team-details,
+.each-team .team-details .social-icons a i,
+.each-blog:hover .blog-texts .btn-blue-border,
+.btn-default.black,
+.btn-default.black:hover span,
+.callback-footer-2 .btn,
+.scrol-tp,
+.pagination-type1 ul li.active a,
+.pagination-type1 ul li a:hover,
+.btn-albm-btn,
+.btn-albm-btn:hover,
+.play-btn i,
+.event-navs i,
+.blog-standared-date,
+.categories li a span,
+.tags-widget .tag-link:hover,
+.play-btn-3 i,
+.block-quote-2,
+.tags-small a:hover,
+.blog-social li a:hover,
+.each-shop-list .shop-img .btn-shop,
+.prdt-tab .nav-pills .nav-link.active,
+.prdt-tab .nav-pills .nav-link:hover,
+.btn.updt-crt,
+.btn-green,
+.bill-section .nice-select .list,
+.contacts-list li .icon,
+.each-gallery .expand-gallery {
+    color: #29274C;
+}
+
+
+/* ....................................
+2. Color green
+.......................................*/
+
+.green,
+.banner-content h1,
+.btn-default,
+.btn-default .btn:hover span,
+.s-header li a:hover i,
+.btn-default:hover span,
+.each-events .evnt-btn .btn,
+.each-events:hover,
+.each-cds:hover .cd-text h3 a,
+.each-blog .blog-date h2,
+.btn-blue-border,
+.btn-lik:hover,
+.btn-default.black span,
+.btn-default.black:hover,
+.footer-contact li i,
+.footer-nav li a:hover,
+.social-icons.footer-s li a:hover i,
+.pagination-type1 ul li a,
+.album-share li a,
+.search-white+i,
+.popular-post-text span,
+.tags-widget .tag-link,
+.blog-std-head ul li i,
+.social-icons.blog-lists li i,
+.line-btn-a,
+.social-profile-box:hover,
+.blog-standared-content .blog-std-texts h2 a:hover,
+.tags-small a,
+.blog-social li a,
+.social-icons.blog-auther-social li a:hover i,
+.name-replay .reply,
+.each-shop-list:hover .shop-text h4,
+.prdt-tab .nav-pills .nav-link,
+.left-checkout .input-white,
+.check-list-2 li:before,
+.team-detail .check-list li span,
+.team-detail .social-icons li a i {
+    color: #C77FFF;
+}
+
+
+/* ....................................
+3. Bg black
+.......................................*/
+
+body,
+.bg-black,
+.btn-default:hover span,
+.each-events .evnt-btn .btn,
+.each-events:hover,
+.video-plays[data-overlay]:before,
+.testimonials[data-overlay]:before,
+.btn-default.black span,
+.btn-default.black:hover,
+.bottom-footer[data-overlay]:before,
+.banner-bgs[data-overlay]:before,
+.block-quote-by:before,
+.price-detail ul,
+.errors[data-overlay]:before {
+    background: #29274C;
+}
+
+
+/*black bg opacity classes*/
+
+.bg-black-op-9 {
+    background: rgba(41, 39, 76, 0.9);
+}
+
+.bg-black-op-8 {
+    background: rgba(41, 39, 76, 0.8);
+}
+
+.bg-black-op-7 {
+    background: rgba(41, 39, 76, 0.7);
+}
+
+.bg-black-op-6 {
+    background: rgba(41, 39, 76, 0.6);
+}
+
+.bg-black-op-5 {
+    background: rgba(41, 39, 76, 0.5);
+}
+
+.bg-black-op-4 {
+    background: rgba(41, 39, 76, 0.4);
+}
+
+.bg-black-op-3 {
+    background: rgba(41, 39, 76, 0.3);
+}
+
+.bg-black-op-2 {
+    background: rgba(41, 39, 76, 0.2);
+}
+
+.bg-black-op-1 {
+    background: rgba(41, 39, 76, 0.1);
+}
+
+.bg-black-op-0 {
+    background: rgba(41, 39, 76, 0);
+}
+
+
+/* ....................................
+4. Bg green
+.......................................*/
+
+.bg-green,
+.btn-default span,
+.btn-default:hover,
+.main-menu-1 li .submenu,
+.head-icons li .shop-count,
+.each-events:hover .evnt-btn .btn,
+.dashed-play-btn,
+.each-testimonial .quote-by:before,
+.each-team .team-plus,
+.each-team .team-plus:before,
+.each-team .team-details,
+.each-blog:hover .blog-texts .btn-blue-border,
+.newsletter[data-overlay]:before,
+.btn-default.black:hover span,
+.callback-footer-2 .btn,
+.scrol-tp,
+.pagination-type1 ul li.active a,
+.pagination-type1 ul li a:hover,
+.btn-albm-btn,
+.play-btn,
+.event-navs i,
+.blog-standared-date,
+.right-box-head h4:after,
+.categories li a span,
+a.popular-post:hover .full-cover,
+.tags-widget .tag-link:hover,
+.play-btn-3,
+.block-quote-2,
+.tags-small a:hover,
+.blog-social li a:hover,
+.each-shop-list .shop-img .btn-shop,
+.prdt-tab .nav-pills .nav-link.active,
+.prdt-tab .nav-pills .nav-link:hover,
+.btn.updt-crt,
+.btn-green,
+.coupon-input .btn,
+.fancy-2:after,
+.contact-form[data-overlay]:before,
+.each-gallery .expand-gallery,
+.experience li:after,
+.experience li:before {
+    background: #C77FFF;
+}
+
+
+/*green bg opacity classes*/
+
+.bg-green-op-9 {
+    background: rgba(199, 127, 255, 0.9);
+}
+
+.bg-green-op-8 {
+    background: rgba(199, 127, 255, 0.8);
+}
+
+.bg-green-op-7 {
+    background: rgba(199, 127, 255, 0.7);
+}
+
+.bg-green-op-6 {
+    background: rgba(199, 127, 255, 0.6);
+}
+
+.bg-green-op-5 {
+    background: rgba(199, 127, 255, 0.5);
+}
+
+.bg-green-op-4 {
+    background: rgba(199, 127, 255, 0.4);
+}
+
+.bg-green-op-3 {
+    background: rgba(199, 127, 255, 0.3);
+}
+
+.bg-green-op-2 {
+    background: rgba(199, 127, 255, 0.2);
+}
+
+.bg-green-op-1 {
+    background: rgba(199, 127, 255, 0.1);
+}
+
+
+/*shadow green*/
+
+.blob {
+    box-shadow: 0 0 0 0 rgb(199, 127, 255);
+    animation: pulse-blue 2s infinite;
+}
+
+@keyframes pulse-blue {
+    0% {
+        box-shadow: 0 0 0 0 rgba(199, 127, 255, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 30px rgba(199, 127, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(199, 127, 255, 0);
+    }
+}
+
+@keyframes pulse-blue-small {
+    0% {
+        box-shadow: 0 0 0 0 rgba(199, 127, 255, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(199, 127, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(199, 127, 255, 0);
+    }
+}
+
+
+/* ....................................
+5. Border green
+.......................................*/
+
+.border-green,
+.btn-default,
+.each-events:hover,
+.each-events,
+.dashed-play-btn:before,
+.btn-lik,
+.btn-blue-border,
+.callback-footer-2 .form-control,
+.pagination-type1 ul li a,
+.album-share li a,
+.each-blog-standared:hover,
+.tags-widget .tag-link,
+.social-profile-box:hover,
+.tags-small a,
+.blog-social li a,
+.each-shop-list:hover .shop-img {
+    border-color: #C77FFF;
+}
+
+
+/*border bottom*/
+
+.link-line,
+.cart-table thead tr th,
+.cart-box-head,
+.login-section .card,
+.left-checkout .input-white:focus {
+    border-bottom-color: #C77FFF;
+}
+
+
+/*border top*/
+
+.each-team .team-details:after {
+    border-top-color: #C77FFF;
+}
+
+
+/*border right*/
+
+.link-line,
+.each-events:hover .date {
+    border-right-color: #C77FFF;
+}
+
+
+/* ....................................
+6. Border black
+.......................................*/
+
+.border-black,
+.btn-default.black {
+    border-color: #29274C;
+}

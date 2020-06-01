@@ -1,0 +1,374 @@
+/* Large devices (Above 1400px) */
+
+@media only screen and (min-width: 1400px) {
+    .banner-content {
+        padding-left: 15px;
+    }
+}
+
+
+/*end*/
+
+
+/* Large devices (Above 1200px) */
+
+@media only screen and (min-width: 1200px) {}
+
+
+/*end*/
+
+@media only screen and (min-width: 992px) {}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+@media only screen and (max-width: 1300px) {}
+
+
+/* Large devices (Desktop ,Laptop) */
+
+@media only screen and (max-width: 1199px) {
+    .social-icons.s-header {
+        display: none;
+    }
+    section.newsletter h1 {
+        font-size: 37px;
+    }
+    .footer-contact li {
+        font-size: 18px;
+    }
+    .footer-nav li {
+        margin-left: 21px;
+    }
+    .banner-content h1 {
+        font-size: 63px;
+    }
+    .main-menu-1>div>ul>li>a {
+        padding: 24px 11px;
+    }
+    .video-plays .display-3 {
+        font-size: 48px;
+    }
+}
+
+
+/*end*/
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 991px) {
+    .banner-content {
+        padding-top: 40px;
+    }
+    .about-img {
+        max-width: 550px;
+        margin: auto;
+        display: inherit;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .about-texts {
+        text-align: center;
+    }
+    section.about-parts {
+        padding-bottom: 85px;
+    }
+    .each-events .date,
+    .each-events .evnt-btn {
+        width: 100%;
+    }
+    .each-events .event-detail {
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #00000014;
+        margin-bottom: 21px;
+    }
+    .each-events .evnt-btn {
+        padding-bottom: 20px;
+    }
+    .each-events .event-detail h4 {
+        font-size: 28px;
+    }
+    .each-events:hover .date {
+        border: none;
+    }
+    .footer-contact li:last-child {
+        margin-right: 0px;
+    }
+    .footer-nav li {
+        margin-left: 35px;
+    }
+    .footer-nav li:first-child {
+        margin-left: 0px;
+    }
+    .footer-contact {
+        margin-bottom: 22px;
+    }
+    .footer-contact li {
+        font-size: 23px;
+    }
+    .banner-bgs.inner-banner .banner-content-inner {
+        top: 64%;
+    }
+    .banner-bgs.inner-banner .banner-content-inner h1 {
+        font-size: 43px;
+    }
+    .album-share .social-icons {
+        margin-top: 35px;
+    }
+    .right-box {
+        margin-left: 0px;
+    }
+    .left-bar .right-box {
+        margin-right: 0px;
+    }
+    .left-bar {
+        margin-bottom: 50px;
+    }
+    .blog-standared-date {
+        padding: 4px 11px;
+        padding-top: 10px;
+    }
+    .mean-container .mean-nav ul li a span {
+        display: none;
+    }
+    .team-member-image {
+        margin-bottom: 35px;
+    }
+}
+
+
+/*end*/
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 767px) {
+    .banner-content {
+        padding-left: 15px;
+    }
+    .each-testimonial h3 {
+        font-size: 21px;
+    }
+    h1.main-heads,
+    h1,
+    .video-plays .display-3 {
+        font-size: 40px;
+    }
+    .about-parts .container-fluid {
+        padding: 5px 40px;
+    }
+    .event-navs p {
+        display: none;
+    }
+    .event-navs span {
+        font-size: 16px;
+        margin-top: 8px;
+        display: inline-block;
+    }
+    .event-navs.prev i,
+    .event-navs.next i {
+        padding: 9px 8px;
+    }
+    .nice-select.sort-nice {
+        float: none;
+    }
+    .banner-bgs.inner-banner .banner-content-inner {
+        width: 100%;
+    }
+    .btn.updt-crt {
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+
+/*end*/
+
+
+/* Small Devices, Mid Size Mobiles */
+
+@media only screen and (max-width: 575px) {
+    .header-type-1 {
+        padding: 12px 1px;
+        padding-top: 17px;
+    }
+    .banner-content h1 {
+        font-size: 42px;
+    }
+    .banner-content p {
+        margin-bottom: 0px;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.6;
+        padding: 0;
+    }
+    h1.main-heads,
+    h1,
+    .video-plays .display-3 {
+        font-size: 35px;
+        line-height: 1.4;
+    }
+    .about-parts .container-fluid {
+        padding: 5px 20px;
+    }
+    .banner-content {
+        padding-left: 7px;
+        text-align: center;
+    }
+    .banner-content h1 {
+        font-size: 42px;
+        margin-top: 10px;
+    }
+    .scrol-tp {
+        right: 13px;
+        bottom: 13px;
+    }
+    .dashed-play-btn {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 15px;
+    }
+    section.newsletter h1 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    .footer-nav li {
+        margin-left: 0px;
+    }
+    .footer-contact li {
+        font-size: 19px;
+        margin-bottom: 13px;
+    }
+    .footer-nav li a {
+        font-size: 13px;
+        display: inline-block;
+        padding: 2px 11px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        margin-bottom: 15px;
+    }
+    .footer .top-footer {
+        padding-top: 60px;
+    }
+    .footer .callback-footer-2 .btn {
+        width: 121px;
+        line-height: 39px;
+    }
+    .callback-footer-2 .form-control {
+        height: 50px;
+    }
+    .pagination-type1 ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .intro-inner {
+        line-height: 1.6;
+        font-size: 19px;
+    }
+    .banner-bgs.inner-banner .banner-content-inner h1 {
+        font-size: 36px;
+    }
+    .each-blog-standared {
+        padding: 12px;
+    }
+    .banner-bgs.inner-banner .banner-content-inner {
+        width: 100%;
+    }
+    h1,
+    .blog-detail-head {
+        font-size: 33px;
+        line-height: 1.5;
+    }
+    .block-quote-2 i.fas {
+        position: static;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .block-quote-2 {
+        padding-left: 35px;
+    }
+    .tags-small a {
+        margin-bottom: 8px;
+    }
+    .auther-texts {
+        text-align: center;
+        margin-top: 16px;
+    }
+    .ayther-img {
+        margin-right: 0px;
+    }
+    .comment-image {
+        margin-bottom: 15px;
+    }
+    .replay-comment {
+        padding-left: 25px;
+    }
+    .prdt-form .btn {
+        margin-top: 15px;
+    }
+    .prdt-tab {
+        padding: 11px 12px;
+    }
+    .prdt-tab .nav-pills {
+        padding-top: 7px;
+    }
+    .review-prdt {
+        padding-left: 0;
+    }
+    .review-prdt .user-img {
+        position: static;
+        margin-bottom: 15px;
+    }
+    .coupon-input .btn {
+        padding: 14px 10px;
+        font-size: 13px;
+    }
+    .coupon-input .form-control {
+        padding-left: 13px;
+    }
+    .your-order {
+        padding: 25px 21px;
+    }
+    .contact-form {
+        padding: 23px;
+        padding-top: 22px;
+    }
+}
+
+
+/*end*/
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .prdt-tabs .nav-pills .nav-link {
+        border-radius: .25rem;
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    .line-heads .related-head {
+        font-size: 31px;
+    }
+}
+
+
+/*end*/
+
+@media only screen and (max-width: 320px) {}
+
+
+/*end*/
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
