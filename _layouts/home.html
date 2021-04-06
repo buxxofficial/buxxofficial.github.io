@@ -1,4 +1,81 @@
 ---
 layout: default
 ---
-{{ content -}}
+
+<section>
+  <div class="sec sec-1">
+    <div>
+      <h1 class="font-bold">{{page.sec1.title}}</h1>
+      <ul>
+        {% for item in page.sec1.links -%}
+        <li>
+          <a href="{{item.url}}">
+            {{- item.icon -}}
+          </a>
+        </li>
+        {% endfor -%}
+      </ul>
+    </div>
+  </div>
+</section>
+<section style="background-color: #fff;">
+  <div class="sec sec-2">
+    <div>
+      <h2>{{page.sec2.title}}</h2>
+      {% for i in page.sec2.text -%}
+      <p>{{i | markdownify }}</p>
+      {% endfor -%}
+    </div>
+  </div>
+</section>
+<section>
+  <div class="sec sec-3">
+    <div>
+      <div>
+        <h2>{{page.sec3.title}}</h2>
+        <ul>
+          {% for i in page.sec3.skills -%}
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                clip-rule="evenodd" />
+            </svg> <span>{{- i -}}</span>
+          </li>
+          {% endfor -%}
+        </ul>
+      </div>
+      <div>
+        <h3>{{page.sec3.embed.title}}</h3>
+        {{page.sec3.embed.link-}}
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="sec sec-4">
+    <div>
+      <div>
+        <ul>
+          {% for item in page.sec1.links -%}
+          <li>
+            <a href="{{item.url}}">
+              {{- item.icon -}}
+            </a>
+          </li>
+          {% endfor -%}
+        </ul>
+      </div>
+      <div>
+        <h2>{{page.sec4.title}}</h2>
+        <address>
+          <ul>
+            <li>Phone: <a href="tel:{{page.sec4.phone}}">{{page.sec4.phone}}</a></li>
+            <li>Email: <a href="mailto:{{page.sec4.email}}">{{page.sec4.email}}</a></li>
+            <li>Location: {{page.sec4.location}}</li>
+          </ul>
+        </address>
+      </div>
+    </div>
+  </div>
+</section>

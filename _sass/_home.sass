@@ -1,23 +1,29 @@
+body
+  scroll-snap-type: y mandatory;
+section
+  scroll-snap-align: start;
 .sec
   height: 100vh
+  padding: 2rem
   max-width: 1200px
   margin: auto
 .sec-1
-  background: #000 url(/assets/imgs/sec-1.jpg) no-repeat bottom center
+  background: #000 url(/assets/imgs/sec-1.jpg)
+  background-repeat: no-repeat 
+  background-position: bottom center
   background-size: contain
   display: flex
   align-items: center
   flex-direction: column
-  // justify-content: center
+  text-align: center
   h1
     padding-top: 30%
     color: white
     background: none
     font-weight: bold
-    font-size: 12rem
     font-size: 6rem
     margin: 0
-    word-spacing: -9.408px
+    word-spacing: 0
     background: #B9B6E5;
     background: -webkit-linear-gradient(to bottom, #B9B6E5 0%, #b6dbfe 100%);
     background: -moz-linear-gradient(to bottom, #B9B6E5 0%, #b6dbfe 100%);
@@ -26,6 +32,7 @@
     -webkit-text-fill-color: transparent;
   ul
     margin: 0
+    transform: translateY(-1.5rem)
     padding: 0
   li
     display: inline-block
@@ -37,4 +44,136 @@
       border-radius: 100%
       border: 2px solid #fff
       fill: currentColor
-      // stroke: currentColor
+  @media screen and ( min-width: 700px )
+    background-size: 60vw
+
+  @media screen and ( min-width: 900px )
+    background-size: contain
+    justify-content: center
+    background-position: center right
+    align-items: start
+    h1
+      font-size: 12rem  
+      line-height: 1
+    ul
+      svg
+        width: 3rem
+        height: 3rem
+.sec-2
+  background: #fff url(/assets/imgs/sec-2.jpg)
+  background-repeat: no-repeat
+  background-position: bottom right
+  background-size: 15rem
+  color: #000
+  height: auto
+  display: flex
+  align-items: center
+  font-size: 1.2rem
+  h2
+    font-size: 3rem
+  &>div
+    background-color: rgba(255, 255,255,.6)
+  p
+    line-height: 1.5
+  @media screen and ( min-width: 700px )
+    font-size: 1.3rem
+    min-height: 100vh
+    background-size: 21rem
+    div
+      max-width: 64%
+      background: none
+  @media screen and ( min-width: 900px )
+    background-position: center right
+    background-size: contain
+    &>div
+      font-size: 1.5rem
+    h2
+      font-size: 4rem
+.sec-3
+  background: #000 url(/assets/imgs/sec-3.jpg)
+  background-repeat: no-repeat
+  background-position: top right
+  background-size: cover
+  max-width: 100%
+  font-size: 2rem
+  &>div
+    margin: auto
+    background-color: rgba(0, 0, 0, 0.5)
+    height: 100%
+    max-width: 1200px
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    align-items: start
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+  li
+    display: flex
+    align-items: center
+    margin-top: 1rem
+  svg
+    margin-right: 1rem
+    height: 3rem
+    width: 3rem
+    transform: translateY(-6px)
+  iframe
+    height: 12rem
+    max-width: 30rem
+  @media screen and ( min-width: 700px )
+    iframe
+      height: 18rem
+  @media screen and ( min-width: 900px )
+    h2
+      font-size: 4rem
+    iframe
+      width: 30rem
+      height: 22rem
+    &>div
+      background: none
+
+.sec-4
+  background: #000 url(/assets/imgs/sec-4.jpg)
+  background-repeat: no-repeat
+  background-position: top right
+  background-size: cover
+  font-size: 1.5rem
+  &>div
+    height: 100%
+    display: flex
+    background-color: rgba(0, 0, 0, 0.5)
+    flex-direction: column
+    justify-content: space-evenly
+    align-items: start
+    padding-bottom: 0
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+  li
+    margin-top: 1rem
+  svg
+    width: 2rem
+    height: 2rem
+    padding: .8rem
+    border-radius: 100%
+    border: 3px solid #fff
+    fill: currentColor
+  h2
+    margin-bottom: 1rem
+  address
+    font-style: normal
+    li
+      margin-top: 0.3rem
+  @media screen and ( min-width: 1024px )
+    justify-content: center
+    background-position: center right
+    align-items: start
+    font-size: 2rem
+    svg
+      width: 3rem
+      padding: 1rem
+      height: 3rem
+    &>div
+      background: none
