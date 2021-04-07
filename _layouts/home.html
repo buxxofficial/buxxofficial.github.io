@@ -18,37 +18,19 @@ layout: default
     </div>
   </div>
 </section>
-<section style="background-color: #fff;">
-  <div class="sec sec-2">
-    <div>
-      <h2>{{page.sec2.title}}</h2>
-      {% for i in page.sec2.text -%}
-      <p>{{i | markdownify }}</p>
-      {% endfor -%}
-    </div>
+<section class="sec sec-2">
+  <div>
+    <h2>{{page.sec2.title}}</h2>
+    {% for i in page.sec2.text -%}
+    <p>{{i | markdownify }}</p>
+    {% endfor -%}
   </div>
 </section>
 <section>
   <div class="sec sec-3">
     <div>
-      <div>
-        <h2>{{page.sec3.title}}</h2>
-        <ul>
-          {% for i in page.sec3.skills -%}
-          <li>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
-                clip-rule="evenodd" />
-            </svg> <span>{{- i -}}</span>
-          </li>
-          {% endfor -%}
-        </ul>
-      </div>
-      <div>
-        <h3>{{page.sec3.embed.title}}</h3>
-        {{page.sec3.embed.link-}}
-      </div>
+      <h2>{{page.sec3.title}}</h2>
+      {{page.sec3.embed.link-}}
     </div>
   </div>
 </section>
