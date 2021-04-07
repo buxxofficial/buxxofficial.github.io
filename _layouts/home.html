@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+<section>
+  <div class="sec sec-1">
+    <div>
+      <h1 class="font-bold">{{page.sec1.title}}</h1>
+      <ul>
+        {% for item in page.sec1.links -%}
+        <li>
+          <a href="{{item.url}}">
+            {{- item.icon -}}
+          </a>
+        </li>
+        {% endfor -%}
+      </ul>
+    </div>
+  </div>
+</section>
+<section style="background-color: #fff;">
+  <div class="sec sec-2">
+    <div>
+      <h2>{{page.sec2.title}}</h2>
+      {% for i in page.sec2.text -%}
+      <p>{{i | markdownify }}</p>
+      {% endfor -%}
+    </div>
+  </div>
+</section>
+<section>
+  <div class="sec sec-3">
+    <div>
+      <div>
+        <h2>{{page.sec3.title}}</h2>
+        <ul>
+          {% for i in page.sec3.skills -%}
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                clip-rule="evenodd" />
+            </svg> <span>{{- i -}}</span>
+          </li>
+          {% endfor -%}
+        </ul>
+      </div>
+      <div>
+        <h3>{{page.sec3.embed.title}}</h3>
+        {{page.sec3.embed.link-}}
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="sec sec-4">
+    <div>
+      <div>
+        <ul>
+          {% for item in page.sec1.links -%}
+          <li>
+            <a href="{{item.url}}">
+              {{- item.icon -}}
+            </a>
+          </li>
+          {% endfor -%}
+        </ul>
+      </div>
+      <div>
+        <h2>{{page.sec4.title}}</h2>
+        <address>
+          <ul>
+            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+              </svg> <a href="tel:{{page.sec4.phone}}">{{page.sec4.phone}}</a></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z"
+                  clip-rule="evenodd" />
+              </svg> <a href="mailto:{{page.sec4.email}}">{{page.sec4.email}}</a></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                  clip-rule="evenodd" />
+              </svg> {{page.sec4.location}}</li>
+          </ul>
+        </address>
+      </div>
+    </div>
+  </div>
+</section>

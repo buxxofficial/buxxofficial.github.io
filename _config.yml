@@ -1,0 +1,29 @@
+baseurl: "/"
+url: "http://buxxofficial.com"
+
+title: Buxx Official - DJ - Dubai
+email: buxx.official@gmail.com
+description: ""
+logo: /android-chrome-192x192.png
+type: Person
+
+author: https://www.fiverr.com/minam14
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - buxxofficial.github.io/
